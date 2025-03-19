@@ -14,3 +14,16 @@
         font-size: 1rem;
         font-family: 'poppins';
      }
+#contato {
+   background: var(--cor-principal)
+background-size: cover;
+padding: 4rem 0;
+}
+
+.formulario {
+background-color: var(--branco);
+padding:  2rem;
+border-radius: 10px;
+box-shadow: #2DCCD6;
+font-weight: bold;
+
