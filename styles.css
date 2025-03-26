@@ -10,20 +10,30 @@
 
 }
 
-   body{
-        font-size: 1rem;
-        font-family: 'poppins';
-     }
-#contato {
-   background: var(--cor-principal)
-background-size: cover;
-padding: 4rem 0;
+body {
+   font-size: 1rem;
+   font-family: 'poppins'; /*o nome da sua fonte*/
 }
 
-.formulario {
-background-color: var(--branco);
-padding:  2rem;
-border-radius: 10px;
-box-shadow: #2DCCD6;
-font-weight: bold;
+#contato {
+   background: var(--cor-principal);
+   background-size: cover;
+   padding: 4rem 0;
+}
 
+.formulario{
+   background-color: var(--branco);
+   padding: 2rem;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(27, 2, 255, 0.1);
+   font-weight: bold;
+}
+
+.formulario button {
+   background-color: var(--cor3);
+   border: none;
+   font-weight: bold;
+}
+.form-control {
+   background-color: var(--cor2);
+}
