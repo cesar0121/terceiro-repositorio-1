@@ -26,7 +26,36 @@
    text-shadow:var(--preto);
 
 
-      #palmeiras {
+    
+   
+   .inicio-fundo {
+      background-image: url(img/Logo\ simples\ circular\ esmaltaria\ preto\ \(2\).png
+      background-size: cover;
+      background-position: right;
+      border-radius: 80px;
+      width: 100%;
+      height: 606px;
+      padding: 40px;
+      margin: 0 auto;
+  }
+  
+  .esquerda-conteudo {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap:1rem;
+  }
+  
+  .botao-inicio {
+      background-color: var(--laranja-claro);
+      border-radius: 30px;
+      border: none;
+      width: 14em;
+      height: 3em;
+      align-content: center;
+  }
+   
+   #palmeiras {
          position: relative;
          padding-top: 5rem;
          margin-top: 5rem;
@@ -39,30 +68,29 @@
          align-items:center ;
          justify-content: center;
 position: relative;
+padding-top: 5rem;
+    margin-top: 3rem;
+    background: var(--cor2);
+    background-size: 180px 180px; /* Ajuste o tamanho conforme necessário*/
+}
+
+#tropicalia .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1; /* Garante que o conteúdo fica acima das imagens de backgronde se houverem */
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         #contato {
-            background: var(--cor-principal);
-            background-size: cover;
-            padding: 4rem 0;
-         }
+    #contato {
+    background: var(--cor-principal);
+   background-size: cover;
+    padding: 4rem 0;
+ }
 
          .formulario {
             background-color: var(--branco);
