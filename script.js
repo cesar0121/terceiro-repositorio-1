@@ -10,3 +10,16 @@ document.addEventlistenner('DOMcontentloaded', function () {
    ('aria-expandead')    === 'true';
     })
 })
+const aumentaFonteBotao = document.getElementById('aumentar-fonte');
+const diminuiFontesBotao = document.getElementById('aumentar-fonte');
+
+
+aumentaFonteBotao.addEventListener('clik', function(){
+
+
+
+
+
+
+
+
